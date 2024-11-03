@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.get("/", async (req, res) => {
-    res.json("hello from express world :)");
+    res.send("hello from express world :)");
 })
 
 
