@@ -9,7 +9,7 @@ app.use(cors());
 
 
 app.get("/", async (req, res) => {
-    res.send("hello from express world :)");
+    res.json("hello from express world :)");
 })
 
 
