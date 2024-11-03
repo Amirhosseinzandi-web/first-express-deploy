@@ -4,13 +4,7 @@ import cors from "cors";
 const app = express();
 
 
-app.use(cors(
-    {
-        origin: ["https://first-express-deploy-omega.vercel.app"],
-        methods: ["GET", "POST", "PUT", "DELETE"],
-        credentials: true
-    }
-));
+app.use(cors());
 
 app.use(express.json());
 
